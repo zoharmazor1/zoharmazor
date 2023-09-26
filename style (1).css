@@ -1,0 +1,223 @@
+html,
+body {
+  height: 100%;
+}
+
+.bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #69a9b6;
+}
+
+body {
+  display: block;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+  background-color: #69a9b6;
+}
+
+input {
+  width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 5px;
+  border:0px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  border-radius: 3px;
+}
+
+.h1 {
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.h2 {
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #53c9b6;
+  color: #fff;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  font-weight:bold;
+}
+
+.divForm{
+   padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.form-control:focus {
+  border-color: #ced4da;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+.form-control {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+input {
+  margin-right: 0.5em;
+}
+
+
+.form-floating {
+  margin: 10px;
+}
+
+.form-floatin:focus-within {
+  z-index: 2;
+}
+
+.errorMessage {
+  display: none;
+  color: red;
+  margin: 0px;
+}
+
+.linkToSignup {
+  background-color: white;
+  color: black;
+  text-align: center;
+  width: 200px;
+  margin: auto;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.divLink{
+  border:1px solid gray;
+}
+
+.navbar{
+  margin:auto;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #d18e1a;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  border-radius: 10px;
+}
+
+.navbar li {
+  float:left;
+}
+
+.navbar li {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color:white;
+  cursor: pointer;
+  padding: 10px 10px;
+}
+
+.navbar li:hover{  
+  color:black;
+  background-color: whitesmoke;
+}
+
+.navbar li a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color:white;
+  padding: 10px 10px;
+}
+
+
+.navbar li a:hover{  
+  color:black;
+  background-color: whitesmoke;
+}
+
+
+table , th , td {
+  border: 1px solid black;
+    margin: auto;
+}
+
+table  {
+ width:90%;
+}
+
+th{
+  width:10%;
+}
+
+
+
+.popup {
+    width: 300px;
+    background-color: #d18e1a;
+}
+
+.logoDiv{
+  text-align: center;
+}
+
+input{
+  width: 80%;
+  margin:5px;
+  height : 30px;
+}
+
+.h1S{
+  color: white;
+  margin:0px;
+  text-align: center;;
+}
+
+#nameNavbar{
+  color: blue; 
+  font-size: 20px;
+  font-weight: bolder;
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.logout-button {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+   
+}
+
+.pro {
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+
+.popup1{
+   width: 300px;
+    background-color: #d18e1a;
+  position: fixed;
+  top:270px;
+  left: calc(50% - 150px);
+  border-radius: 5px;
+  padding: 5px;
+}

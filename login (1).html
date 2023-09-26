@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>LOGIN</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet" />
+  <script src="login.js"></script>
+  
+</head>
+
+<body>
+  <div class="bg">
+  </div>
+
+  <main class="form-signin">
+    <h1 class="h1">מערכת מידע לעובד</h1>
+    <h2 class="h2">LOGIN</h2>
+
+    <form id="form">
+   <div class="divForm">
+      <div class="form-floating">
+        <input type="text" class="form-control" placeholder="User Name" id="userName" required>
+        
+        <p class="errorMessage" id="errorUserName">User Name is too short!</p>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" placeholder="Password" id="password" required>
+  
+        <p class="errorMessage" id="errorPassword">You need to enter password</p>
+      </div>
+   </div>
+      <div style="text-align: center; margin-top: 20px;">
+      <button class="w-80 btn btn-lg btn1" style="background-color: #53c9b6;" type="submit">Sign
+        in</button>
+      </div>
+    </form>
+    <div class="linkToSignup divLink">
+      <a href="signup.html" class="linkToSignup">To SIGNUP Click Here</a>
+    </div>
+  </main>
+
+</body>
+
+</html>

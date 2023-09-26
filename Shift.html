@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Shifts</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet" />
+ <script src="Shift.js"></script> 
+  <div class="pro">
+  <div id="nameNavbar">
+    Hello
+  </div>
+  <div class="logout-button" onclick="logout()">
+    LOGOUT
+  </div>
+    </div>
+  <div class="logoDiv">
+   <img src="LOGO.png" alt="Company logo" width="100" height="100">
+  </div>
+<h1 class="h1S">SHIFTS</h1>
+</head>
+
+<body>
+  <div class="bg">
+  </div>
+  <ul class="navbar">
+    <li>
+     <a href="Shift.html">Shifts</a></li>
+    <li onclick="addShift()">
+      Add Shift
+    </li>
+    <li>
+ <a href="CV Profile">CV Profile</a></li>    </li>
+    <li>
+ <a href="Edit Profile">Edit Profile</a></li>    </li>
+  </ul>
+
+  <div>
+    <select id="filterByBranch">
+       <option value="Tel Aviv">Tel Aviv</option>
+ <option value="Haifa">Haifa</option>
+ <option value="Jerusalem">Jerusalem</option>
+ <option value="Beer Sheva">Beer Sheva</option>
+  <option value="Eliat">Eliat</option>
+   <option value="Ra'anana ">Ra'anana</option>
+    <option value="Kiryat Gat">Kiryat Gat</option>
+    </select>
+    <select id="filterByRole">
+       <option value="Branch Manger">Branch Manger</option>
+  <option value="Shift Manger">Shift Manger</option>
+  <option value="Waiter">Waiter</option>
+  <option value="Bartender">Bartender</option>
+    </select>
+  </div>
+
+
+  <div id="allShifts">
+    <table>
+      <thead>
+        <th>Date</th>
+        <th>Start</th>
+        <th>End</th>
+        <th>Salary</th>
+        <th>Time</th> 
+        <th>Role</th>
+        <th>Branch</th>
+        <th>Total Salary</th>
+        <th>Comments</th>
+        <th>Edit</th>
+        <th>Delete</th>
+      </thead>
+      <tbody id="tbody">
+
+      </tbody>
+    </table>
+    <h3 id="totalSalary"></h3>
+  </div>
+
+</body>
+
+</html>

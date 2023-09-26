@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>SIGNUP</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet" />
+  <script src="signup.js"></script>
+</head>
+
+<body>
+  <div class="bg"></div>
+
+  <main class="form-signin">
+
+    <h1 class="h1">SIGN UP</h1>
+
+    <form id="form">
+      <div class="divForm">
+        
+     
+      <div class="form-floating">
+        <input type="email" class="form-control" id="email"  placeholder="Email" required>
+  
+        <p class="errorMessage" id="errorEmail">You have entered an invalid email address!</p>
+      </div>
+
+      <div class="form-floating">
+        <input type="text" class="form-control" id="userName"  placeholder="User Name" required>
+       
+        <p class="errorMessage" id="errorUserName">User Name is too short!</p>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="firstName"  placeholder="First Name" required>
+       
+        <p class="errorMessage" id="errorFirstName">First Name is too short!</p>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="lastName"  placeholder="Last Name" required>
+    
+        <p class="errorMessage" id="errorLastName">Last Name is too short!</p>
+      </div>
+      <div class="form-floating">
+        <input type="number" class="form-control"  placeholder="age" id="age" required>
+        
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="password"  placeholder="Password" required>
+       
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="confirmPassword"  placeholder="Confirm Password" required>
+       
+        </div>
+       </div>
+    <div style="text-align: center; margin-top: 20px;">
+      <button class="w-80 btn btn-lg btn1" style="background-color: #53c9b6;" type="submit">Sign up</button>
+    </div>
+      </form>
+  </main>
+</body>
+
+</html>
